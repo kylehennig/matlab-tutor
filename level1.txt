@@ -1,0 +1,38 @@
+start instructions {
+Level 1: Variable Assignment
+
+Background information: 
+The = operator allows you to store values as variables. Your variable names must begin with a letter of the alphabet and should be descriptive.
+Format: Variablename = expression
+
+Characters and strings:
+Used to display text. Strings are sequences of characters.
+Express by surrounding the text in single quotations.
+
+Note: 
+Semi-colons will be discussed in Level 2 so don't use them yet!
+
+Task:
+You're walking through a garden and you see a lot of colours! In front of you there is a lion (yellow), a ladybug (red), and an elephant (grey). Using your knowledge of variable assignments and strings, assign to each animal it's colour in the order above.
+} end instructions
+
+start code {
+} end code
+
+start output {
+lion =
+
+    'yellow'
+
+
+ladybug =
+
+    'red'
+
+
+elephant =
+
+    'grey'
+
+
+} end output
