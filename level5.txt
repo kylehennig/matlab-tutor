@@ -1,0 +1,25 @@
+start instructions {
+Level 5: Relational Expressions 
+
+Background information:
+There are many relational operators that are used to compare the left side to the right side. If the comparison is true, a logical 1 will be returned, and if the comparison is false, a logical 0 will be returned. 
+> : greater than
+< : less than
+>= : greater than or equals
+<= : less than or equals
+== : equality
+
+Task: 
+One of your family members offered to buy you a puppy if you can collect over 1000 nickels in one day. Thankfully,  for show and tell your friend  brought 20 boxes full of 67 nickles each. Using the greater than or equals to relational operator, test to see whether you have collected enough nickles. Please put 1000 on the right side of the operator. If a 1 is returned, you have earned yourself a puppy!
+} end instructions
+
+start code {
+} end code
+
+start output {
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+} end output

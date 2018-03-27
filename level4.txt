@@ -1,0 +1,33 @@
+start instructions {
+Level 4: Functions
+
+Background information: 
+There are many built in functions that allow us to do certain tasks in Matlab. To use a function, you write the function name followed by the arguments that you want the function to work with in parenthesis. This is called calling a function. It is possible for a function to have multiple arguments separated with a comma. 
+
+Please note that there are many different functions to learn. In this level we only introduce you to one. 
+
+Task: 
+You can add multiple numbers using the plus function. Using this function, calculate the number of fruit you had in level 3 (5 blueberries and 1008 pears).
+} end instructions
+
+start code {
+blueberries = ?
+pears = ?
+plus(?, ?)
+} end code
+
+start output {
+blueberries =
+
+     5
+
+
+pears =
+
+        1008
+
+
+ans =
+
+        1013
+} end output

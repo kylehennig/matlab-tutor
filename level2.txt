@@ -1,0 +1,17 @@
+start instructions {
+Level 2: Semicolons!
+
+Background information:
+Semi-colons are used to suppress the output while still performing the assignment.
+
+Using the code from level one, add semicolons so that when you run the code, nothing shows up in the display. 
+} end instructions
+
+start code {
+lion = 'yellow'
+ladybug = 'red'
+elephant = 'grey'
+} end code
+
+start output {
+} end output

@@ -1,0 +1,33 @@
+start instructions {
+Level 3: Operators!
+
+Background information: 
+Similar to conventional math, Matlab allows us to perform calculations using operators. 
++ : addition
+- : subtraction 
+* : multiplication
+/ : division (ex. 6/2 is 3)
+\ : division (ex 2\6 is 3)
+^ : exponentiation 
+
+Task: 
+Each question should be answered with a new line of code. Answer the questions in the order asked. Do not suppress the output with semicolons
+
+Question 1: If you hold 5 blueberries, and 1008 pears in your right hand, how many pieces of fruit do you have in total?
+
+Question 2: You have 21 groups of 78 friends. How many friends do you have in total?
+} end instructions
+
+start code {
+} end code
+
+start output {
+ans =
+
+        1013
+
+
+ans =
+
+        1638
+} end output
