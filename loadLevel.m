@@ -1,8 +1,13 @@
 % Loads a file describing a level of the program.
 function level = loadLevel(filename)
-% Opens the file and initializes the instructions and code to empty cell
-% arrays.
-fileId = fopen(filename, 'rt');
+% Opens the file. Checks if successful.
+[fileId, message] = fopen(filename, 'rt');
+if fileId == -1
+    fprintf('Could not open the file %s.\n', filename);
+    error(message)
+end
+
+% Initializes the instructions and code to empty cell arrays.
 instructions = {};
 code = {};
 output = {};
