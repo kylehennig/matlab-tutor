@@ -3,7 +3,8 @@ Level 1: Variable Assignment
 
 Background information: 
 The = operator allows you to store values as variables. Your variable names must begin with a letter of the alphabet and should be descriptive.
-Format: Variablename = expression
+Format:
+variablename = 'expression'
 
 Characters and strings:
 Used to display text. Strings are sequences of characters.
