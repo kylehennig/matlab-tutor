@@ -1,0 +1,30 @@
+start instructions {
+Level 6: Arrays
+
+Background information:
+When writing a program, you often want to handle large amounts of data. It is tedious to create a variable for every single piece of data you wish to store, as in the following example:
+
+var1 = 1
+var2 = 2
+var3 = 3
+var4 = 4
+var5 = 5
+
+A better way to store the above data makes use of arrays. Arrays (sometimes called matrices or vectors) permit multiple values to be stored to a single variable.
+
+numbers = [1, 2, 3, 4, 5]
+
+The variable numbers stores all the numbers from 1 to 5. 
+
+Task:
+Create an array named 'numbers' that contains all the even numbers from 1 to 10, inclusive.
+} end instructions
+
+start code {
+} end code
+
+start output {
+numbers =
+
+     2     4     6     8    10
+} end output

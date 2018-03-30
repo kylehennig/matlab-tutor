@@ -1,0 +1,74 @@
+start instructions {
+Level 7: Repetition
+
+Background information:
+Often, when programming, you will want to do something over and over again. When you know how many times you want to repeat a task, you can use what’s known as a 'for loop'. For loops are particularly useful for accessing the values in arrays.
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for number = numbers
+   10 * number
+end
+
+The code inside of the for loop runs once for every number in the numbers array. In this example, each number is multiplied by ten.
+
+Task:
+Calculate the square of every single number in the numbers array using a for loop.
+} end instructions
+
+start code {
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for ? = ?
+    ?
+end
+} end code
+
+start output {
+ans =
+
+     1
+
+
+ans =
+
+     4
+
+
+ans =
+
+     9
+
+
+ans =
+
+    16
+
+
+ans =
+
+    25
+
+
+ans =
+
+    36
+
+
+ans =
+
+    49
+
+
+ans =
+
+    64
+
+
+ans =
+
+    81
+
+
+ans =
+
+   100
+} end output
