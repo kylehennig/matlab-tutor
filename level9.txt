@@ -1,0 +1,35 @@
+start instructions {
+Level 9: Multidimensional arrays.
+
+Background information:
+MATLAB is short for matrix laboratory. Thus, it would make sense if we could also store matrices as variables. Matrices are essentially two-dimensional arrays. To declare a matrix, start by declaring an array as per usual, then add a semicolon to delimit the end of each row as shown below:
+
+A = [1 2 3; 4 5 6];
+This stores the matrix
+[1 2 3]
+[4 5 6]
+to the variable A.
+
+You can also perform matrix multiplication.
+B = [-1 -1 0; 0 3 7; 2 2 -5];
+C = A*B;
+This stores the product of A and B to the matrix C.
+
+Task:
+Create a 3 by 3 matrix, A, consisting of the numbers 1 to 9 (the first row should contain 1, 2, and 3).
+Multiply the matrix by the identity matrix, I, and store it to B. Do not end this line with a semicolon.
+} end instructions
+
+start code {
+A = ?;
+I = [1 0 0; 0 1 0; 0 0 1];
+B = A * I
+} end code
+
+start output {
+B =
+
+     1     2     3
+     4     5     6
+     7     8     9
+} end output

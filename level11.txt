@@ -1,0 +1,18 @@
+start instructions {
+Level 11: Coming soon!
+
+Background information:
+MATLAB Tutor is a work-in-progress, and we would love for you to contribute to the levels we have available.
+All our levels are loaded from .txt files in the direction you have MATLAB Tutor installed. You can open them, take a peak, and even make your own!
+
+You will find three main blocks of text, contained by curly brackets. Anything between the opening '{' and the closing '}' can easily be edited and will be loaded by MATLAB Tutor the next time it is run.
+
+Task:
+Open one of the files level10.txt through level15.txt and create your own level. Feel free to submit it to Kyle (hennig1@ualberta.ca) or Kaitlyn (kachin@ualberta.ca), and we will gladly look into adding it to our program.
+} end instructions
+
+start code {
+} end code
+
+start output {
+} end output

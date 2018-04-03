@@ -1,0 +1,33 @@
+start instructions {
+Level 8: Arrays of numbers
+
+Background information:
+Arrays of numbers are a very common sight in MATLAB programming. So common, in fact, that multiple shorthand notations exist to create and modify them.
+
+x = 1:5
+Sets x equal to the array [1 2 3 4 5]. This generalizes to any two numbers, in the format min:max.
+
+x = 1:2:5
+Sets x equal to the array [1 3 5]. The 2 in the middle is known as the 'step' (how much MATLAB should count by to reach the max).
+
+sin(x)
+Applies the sine function to all of the values in the array x.
+
+Task:
+Calculate the cosine of every integer from one to twenty-five.
+} end instructions
+
+start code {
+} end code
+
+start output {
+ans =
+
+  Columns 1 through 14
+
+    0.5403   -0.4161   -0.9900   -0.6536    0.2837    0.9602    0.7539   -0.1455   -0.9111   -0.8391    0.0044    0.8439    0.9074    0.1367
+
+  Columns 15 through 25
+
+   -0.7597   -0.9577   -0.2752    0.6603    0.9887    0.4081   -0.5477   -1.0000   -0.5328    0.4242    0.9912
+} end output

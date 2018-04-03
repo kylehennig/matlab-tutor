@@ -2,7 +2,7 @@ start instructions {
 Level 7: Repetition
 
 Background information:
-Often, when programming, you will want to do something over and over again. When you know how many times you want to repeat a task, you can use what’s known as a 'for loop'. For loops are particularly useful for accessing the values in arrays.
+Often, when programming, you will want to do something over and over again. When you know how many times you want to repeat a task, you can use what's known as a 'for loop'. For loops are particularly useful for accessing the values in arrays.
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 for number = numbers
